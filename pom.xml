@@ -20,6 +20,7 @@
         <guice.version>7.0.0</guice.version>
         <assertj.version>3.27.6</assertj.version>
         <jsoup.version>1.16.1</jsoup.version>
+        <slf4j-simple.version>2.0.16</slf4j-simple.version>
 
         <!-- Allure версии -->
         <allure.version>2.28.0</allure.version>
@@ -152,7 +153,7 @@
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-simple</artifactId>
-            <version>2.0.16</version>
+            <version>${slf4j-simple.version}</version>
         </dependency>
     </dependencies>
 
